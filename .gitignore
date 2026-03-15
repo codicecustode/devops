@@ -1,0 +1,58 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.env/
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build and dist folders
+dist/
+build/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore coverage reports
+coverage/
+*.coverage
+
+# Ignore dotenv files
+.env
+.env.*
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore test output
+*.out
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore docker files
+docker-compose.override.yml
+
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
