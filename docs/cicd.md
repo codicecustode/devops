@@ -20,3 +20,9 @@ If any step fails, the PR cannot be safely merged.
 - Docker container is rebuilt and restarted
 
 This ensures continuous delivery with minimal manual intervention.
+
+
+### Deployment Safety Controls
+
+- Docker image is built and container health endpoint is validated during CI stage.
+- SSH based deployment ensures immutable infrastructure pattern where container is recreated on each release.
