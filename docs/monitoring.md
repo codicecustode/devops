@@ -34,3 +34,9 @@
 - GitHub Secrets
 - Azure Key Vault
 - Avoid storing secrets in codebase
+
+### Metrics and Alerting
+
+- CPU and memory utilization can be monitored via Azure Monitor.
+- Health endpoint failure alerts can be configured.
+- Log aggregation systems such as ELK / Datadog can provide anomaly detection.
